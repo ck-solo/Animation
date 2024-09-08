@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* Practice Paper 1 basic */
+/* #main{
+    height: 100%;
+    width: 100%;
+    background-color: yellow; 
+    
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: red; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;  
+    margin-top: 60px;
+} */
+
+/* Practice Paper 2 Scroll Trigger */
+
+/* Part 1 */
+/* #page1{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+ 
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+#page2 h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px; 
+}
+#page2 p{ 
+    color: black; 
+    font-weight: 600;
+    font-size: 20px; 
+    background-color: red;
+    border-radius: 2px;
+
+}
+ 
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(112, 222, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+} */
+
+/*Part2 */
+/* body{
+
+    overflow-x: hidden;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(103, 65, 138);
+}
+#page2 h2{
+    font-size: 30vw;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(194, 158, 228);
+} */
+
+/* Practice Paper 3 Svg path mdn (guitar) */
+/* body{
+    background-color: black;
+}
+#string{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+} */
+
+/* Practice Paper4 Cursor */
+/* 
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+}
+#cursor{
+    position: fixed;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 6px;
+    font-weight: 700;
+
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(8, 8, 8); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+}
+#image{
+    position: relative;
+    width :200px;
+    height: 200px;
+    background-color: red; 
+
+}
+
+#image img{
+    width :200px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+#overlay{
+    position: absolute; 
+    height: 200px;
+    width:200px;
+    background-color: transparent; 
+    z-index: 10;
+     
+} */
+
+/* Practice Paper 5 Timeline */
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background: url("https://plus.unsplash.com/premium_photo-1676218968741-8179dd7e533f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW91bnRhaW58ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-position: center;
+}
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h2 {
+  margin: 10px;
+  padding: 5px;
+}
+#nav i {
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#blank {
+  height: 100%;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.562);
+  top: 0;
+  right: -40%;
+  position: absolute;
+  backdrop-filter: blur(10px);
+  padding: 40px 50px;
+}
+#blank i{
+    font-size: 20px;
+    font-weight: 800;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
